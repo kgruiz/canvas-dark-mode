@@ -289,6 +289,19 @@ iframe.tool_launch {
     color: #9aa3ad !important;
 }
 
+.responsive_student_grades_page #grades_summary input#grade_entry {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+}
+
+.responsive_student_grades_page #grades_summary input#grade_entry:focus {
+    outline: none !important;
+    border-color: #4a4a4a !important;
+}
+
 .responsive_student_grades_page #right-side,
 .responsive_student_grades_page #right-side-wrapper,
 .responsive_student_grades_page #student-grades-right-content {

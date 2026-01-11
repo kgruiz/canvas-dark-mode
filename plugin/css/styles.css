@@ -120,6 +120,10 @@ a {
     box-shadow: none !important;
 }
 
+.css-vuxlgb-select input[aria-expanded="true"] {
+    color: #C7CDD1 !important;
+}
+
 .css-vuxlgb-select input[role="combobox"]:focus {
     outline: none !important;
     box-shadow: none !important;
@@ -133,6 +137,32 @@ a {
 .css-vuxlgb-select .css-1ilrm37-select__icon svg path {
     fill: currentColor !important;
     color: #C7CDD1 !important;
+}
+
+/* Select menu popover (open dropdown list) */
+.css-3nf5sm-options,
+[role="listbox"].css-h1wohn-view--block-options__list {
+    background-color: #262626 !important;
+    border: 1px solid #3a3a3a !important;
+    color: #C7CDD1 !important;
+}
+
+.css-bx6zoh-optionItem,
+.css-wlckwd-optionItem {
+    background-color: transparent !important;
+}
+
+.css-1xvmiv1-optionItem__container {
+    color: #C7CDD1 !important;
+}
+
+.css-1xvmiv1-optionItem__container:hover {
+    background-color: #30343a !important;
+}
+
+.css-1xvmiv1-optionItem__container[aria-selected="true"] {
+    background-color: #2a3138 !important;
+    color: #9ac2ff !important;
 }
 
 /* External tool iframe container (only affects the frame itself) */
@@ -182,6 +212,98 @@ iframe.tool_launch {
 #immersive_reader_mount_point button svg path[fill="#000000"],
 #immersive_reader_mount_point button svg path[fill="#000"] {
     fill: currentColor !important;
+}
+
+/* Grades page */
+.responsive_student_grades_page #content,
+.responsive_student_grades_page #grade-summary-content,
+.responsive_student_grades_page .ui-tabs,
+.responsive_student_grades_page .ui-tabs-panel,
+.responsive_student_grades_page .ui-widget-content {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+}
+
+.responsive_student_grades_page #navpills,
+.responsive_student_grades_page #navpills li {
+    background-color: #1f1f1f !important;
+    border-color: #3a3a3a !important;
+}
+
+.responsive_student_grades_page #navpills li.ui-tabs-active,
+.responsive_student_grades_page #navpills li.ui-state-active {
+    background-color: #262626 !important;
+}
+
+.responsive_student_grades_page #navpills a {
+    color: #C7CDD1 !important;
+}
+
+.responsive_student_grades_page #print-grades-container h1 {
+    color: #C7CDD1 !important;
+}
+
+.responsive_student_grades_page #GradeSummarySelectMenuGroup .css-oj1gve-formFieldLayout__label {
+    color: #C7CDD1 !important;
+}
+
+.responsive_student_grades_page #apply_select_menus,
+.responsive_student_grades_page #apply_select_menus .css-h8r6vs-baseButton__content {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+}
+
+.responsive_student_grades_page #apply_select_menus[disabled] {
+    opacity: 0.6 !important;
+}
+
+.responsive_student_grades_page #grades_summary {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+.responsive_student_grades_page #grades_summary thead th {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+.responsive_student_grades_page #grades_summary tbody tr {
+    background-color: #1f1f1f !important;
+}
+
+.responsive_student_grades_page #grades_summary tbody tr:nth-child(odd) {
+    background-color: #202020 !important;
+}
+
+.responsive_student_grades_page #grades_summary th,
+.responsive_student_grades_page #grades_summary td {
+    border-color: #3a3a3a !important;
+}
+
+.responsive_student_grades_page #grades_summary .context {
+    color: #9aa3ad !important;
+}
+
+.responsive_student_grades_page #right-side,
+.responsive_student_grades_page #right-side-wrapper,
+.responsive_student_grades_page #student-grades-right-content {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+}
+
+.responsive_student_grades_page #assignments-not-weighted h2,
+.responsive_student_grades_page #whatif-score-description,
+.responsive_student_grades_page #student-grades-final {
+    color: #C7CDD1 !important;
+}
+
+.responsive_student_grades_page #only_consider_graded_assignments {
+    accent-color: #5c8edb !important;
 }
 
 /* Canvas rich content (assignment descriptions, pages, etc.) */

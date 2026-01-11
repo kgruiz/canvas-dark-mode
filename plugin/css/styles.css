@@ -537,12 +537,39 @@ body.files #files-table thead th {
     border-color: #3a3a3a !important;
 }
 
+body.files #files-table thead tr,
+body.files #files-table .css-1i718i6-view-row,
+body.files #files-table .css-4zi05x-colHeader,
+body.files #files-table .css-shp4i1-colHeader,
+body.files #files-table thead th button,
+body.files #files-table thead th button span {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+}
+
 body.files #files-table tbody tr {
     background-color: #1f1f1f !important;
 }
 
-body.files #files-table tbody tr:nth-child(odd) {
+body.files #files-table tbody tr:nth-child(odd),
+body.files #files-table tbody tr:nth-child(odd) > th,
+body.files #files-table tbody tr:nth-child(odd) > td {
     background-color: #202020 !important;
+}
+
+body.files #files-table tbody tr > th,
+body.files #files-table tbody tr > td,
+body.files #files-table .css-odrjip-view-cell,
+body.files #files-table .css-183hmla-view-cell,
+body.files #files-table .css-1uhu8qv-view-rowHeader {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+body.files #files-table tbody tr:hover > th,
+body.files #files-table tbody tr:hover > td {
+    background-color: #2a2a2a !important;
 }
 
 body.files #files-table td,

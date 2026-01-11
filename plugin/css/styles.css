@@ -160,6 +160,30 @@ iframe.tool_launch {
     color: #C7CDD1 !important;
 }
 
+/* "Immersive Reader" button */
+#immersive_reader_mount_point button,
+#immersive_reader_mount_point button .css-1ta5ds2-baseButton__content {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+}
+
+#immersive_reader_mount_point button .css-11xkk0o-baseButton__children {
+    color: #C7CDD1 !important;
+}
+
+#immersive_reader_mount_point button svg {
+    color: #C7CDD1 !important;
+}
+
+/* Only override the black parts of the icon; keep the blue speaker paths */
+#immersive_reader_mount_point button svg path[fill="#000000"],
+#immersive_reader_mount_point button svg path[fill="#000"] {
+    fill: currentColor !important;
+}
+
 /* Canvas rich content (assignment descriptions, pages, etc.) */
 .user_content,
 .user_content p,

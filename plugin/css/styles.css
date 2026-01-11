@@ -93,6 +93,13 @@ a {
     color: #9aa3ad !important;
 }
 
+/* Courses tray background (avoid white area below list) */
+.navigation-tray-container.courses-tray,
+.navigation-tray-container.courses-tray .tray-with-space-for-global-nav,
+.navigation-tray-container.courses-tray [class*="view"] {
+    background-color: #1f1f1f !important;
+}
+
 /* Assignments "Attempt" dropdown (Instructure UI select) */
 [class*="select"] [class*="textInput__facade"],
 [class*="select"] [class*="textInput__layout"],

@@ -609,20 +609,17 @@ body.files button[data-testid="action-menu-button-large"] svg path {
     color: #C7CDD1 !important;
 }
 
-body.files button[data-testid="action-menu-button-large"]:hover,
-body.files button[data-testid="action-menu-button-large"]:focus-visible,
-body.files button[data-testid="action-menu-button-large"] .css-v4g620-baseButton__content {
-    background-color: #262626 !important;
-    box-shadow: none !important;
-}
-
-body.files button[data-testid="action-menu-button-large"] .css-v4g620-baseButton__content {
+body.files button[data-testid="action-menu-button-large"]:not(:hover):not(:focus-visible) .css-v4g620-baseButton__content {
+    background-color: transparent !important;
     border-color: transparent !important;
+    box-shadow: none !important;
 }
 
 body.files button[data-testid="action-menu-button-large"]:hover .css-v4g620-baseButton__content,
 body.files button[data-testid="action-menu-button-large"]:focus-visible .css-v4g620-baseButton__content {
+    background-color: #262626 !important;
     border-color: #3a3a3a !important;
+    box-shadow: none !important;
 }
 
 body.files button[data-testid="bulk-actions-download-button"],

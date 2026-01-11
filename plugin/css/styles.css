@@ -482,6 +482,99 @@ iframe.tool_launch {
     color: #fff !important;
 }
 
+/* Files page */
+body.files .css-itoxpg-view-heading,
+body.files .css-oj1gve-formFieldLayout__label,
+body.files .css-1qe8d4s-text {
+    color: #C7CDD1 !important;
+}
+
+body.files .css-15ffo05-textInput__facade,
+body.files .css-lkfnwv-textInput__layout,
+body.files .css-9kp4ca-textInput__inputLayout,
+body.files input[data-testid="files-search-input"] {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+    box-shadow: none !important;
+}
+
+body.files .css-15ffo05-textInput__facade {
+    border: 1px solid #3a3a3a !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
+}
+
+body.files input[data-testid="files-search-input"]::placeholder {
+    color: #9aa3ad !important;
+}
+
+body.files .css-lkfnwv-textInput__layout svg,
+body.files .css-lkfnwv-textInput__layout svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
+body.files button.css-10t32iw-view--inlineBlock-baseButton,
+body.files button.css-10t32iw-view--inlineBlock-baseButton .css-1ta5ds2-baseButton__content {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+}
+
+body.files #files-table {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+body.files #files-table thead,
+body.files #files-table thead th {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+body.files #files-table tbody tr {
+    background-color: #1f1f1f !important;
+}
+
+body.files #files-table tbody tr:nth-child(odd) {
+    background-color: #202020 !important;
+}
+
+body.files #files-table td,
+body.files #files-table th {
+    border-color: #3a3a3a !important;
+    color: #C7CDD1 !important;
+}
+
+body.files .css-17kez3x-inlineSVG-svgIcon-colHeader__sortedIconColor,
+body.files .css-n5049o-inlineSVG-svgIcon-colHeader__unSortedIconColor {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
+body.files .css-1xjplqo-checkboxFacade__facade {
+    background-color: #1f1f1f !important;
+    border-color: #3a3a3a !important;
+}
+
+body.files input.css-22ol9d-checkbox__input:checked + label .css-1xjplqo-checkboxFacade__facade {
+    background-color: #5c8edb !important;
+    border-color: #5c8edb !important;
+}
+
+body.files [data-testid="folder-icon"],
+body.files [data-testid="folder-icon"] path,
+body.files button[data-testid="action-menu-button-large"] svg,
+body.files button[data-testid="action-menu-button-large"] svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
 .ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
     background-color: #1f1f1f !important;
 }

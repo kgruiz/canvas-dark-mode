@@ -78,6 +78,11 @@ a {
     stroke: currentColor !important;
 }
 
+/* External tool iframe container (only affects the frame itself) */
+iframe.tool_launch {
+    background-color: #1f1f1f !important;
+}
+
 /* Canvas rich content (assignment descriptions, pages, etc.) */
 .user_content,
 .user_content p,

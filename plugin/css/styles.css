@@ -673,6 +673,34 @@ body.people .collectionViewItems.ui-tabs-nav li.ui-state-active a {
     color: #9ac2ff !important;
 }
 
+/* People groups accordion (only when open) */
+body.people .accordion.student-groups.content-box.show-body {
+    background-color: #1f1f1f !important;
+    border-color: #3a3a3a !important;
+}
+
+body.people .accordion.student-groups.content-box.show-body .student-group-header,
+body.people .accordion.student-groups.content-box.show-body .student-group-title h2,
+body.people .accordion.student-groups.content-box.show-body .student-group-title h2 small,
+body.people .accordion.student-groups.content-box.show-body .student-group-students,
+body.people .accordion.student-groups.content-box.show-body .student-group-body {
+    color: #C7CDD1 !important;
+}
+
+body.people .accordion.student-groups.content-box.show-body .student-group-body li {
+    color: #C7CDD1 !important;
+}
+
+body.people .accordion.student-groups.content-box.show-body .student-group-body {
+    background-color: #202020 !important;
+    border-top: 1px solid #3a3a3a !important;
+}
+
+body.people .accordion.student-groups.content-box.show-body .icon-mini-arrow-down,
+body.people .accordion.student-groups.content-box.show-body .icon-lock {
+    color: #C7CDD1 !important;
+}
+
 body.files button[data-testid="action-menu-button-large"]:not(:hover):not(:focus-visible) .css-v4g620-baseButton__content {
     background-color: transparent !important;
     border-color: transparent !important;

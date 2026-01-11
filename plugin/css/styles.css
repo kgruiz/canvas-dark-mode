@@ -500,6 +500,34 @@ iframe.tool_launch {
     color: #7b7b7b !important;
 }
 
+/* Right-side To Do sidebar */
+#right-side .ToDoSidebarItem {
+    background-color: #1f1f1f !important;
+    border-color: #3a3a3a !important;
+    color: #C7CDD1 !important;
+}
+
+#right-side .ToDoSidebarItem__Title,
+#right-side .ToDoSidebarItem__Title a,
+#right-side .ToDoSidebarItem__Info,
+#right-side .ToDoSidebarItem__Info .css-79wf76-text,
+#right-side .ToDoSidebarItem__Info > ul > li {
+    color: #C7CDD1 !important;
+}
+
+#right-side .ToDoSidebarItem__Icon svg,
+#right-side .ToDoSidebarItem__Icon svg path,
+#right-side .ToDoSidebarItem__Close svg,
+#right-side .ToDoSidebarItem__Close svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
+#right-side .ToDoSidebarItem__Close button {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+
 code{
     color: lightcyan !important;
 }

@@ -85,82 +85,78 @@ a {
 }
 
 /* Assignments "Attempt" dropdown (Instructure UI select) */
-.css-vuxlgb-select .css-15ffo05-textInput__facade,
-.css-vuxlgb-select .css-ols3ti-textInput__facade,
-.css-vuxlgb-select .css-19i4e00-textInput__layout,
-.css-vuxlgb-select .css-9kp4ca-textInput__inputLayout,
-.css-vuxlgb-select input[role="combobox"] {
+[class*="select"] [class*="textInput__facade"],
+[class*="select"] [class*="textInput__layout"],
+[class*="select"] [class*="textInput__inputLayout"],
+[class*="select"] input[role="combobox"] {
     background-color: #262626 !important;
     color: #C7CDD1 !important;
     border-color: #3a3a3a !important;
     box-shadow: none !important;
 }
 
-.css-vuxlgb-select .css-15ffo05-textInput__facade,
-.css-vuxlgb-select .css-ols3ti-textInput__facade {
+[class*="select"] [class*="textInput__facade"] {
     border: 1px solid #3a3a3a !important;
     border-radius: 6px !important;
     overflow: hidden !important;
 }
 
-.css-vuxlgb-select .css-19i4e00-textInput__layout,
-.css-vuxlgb-select .css-9kp4ca-textInput__inputLayout {
+[class*="select"] [class*="textInput__layout"],
+[class*="select"] [class*="textInput__inputLayout"] {
     border: 0 !important;
     border-radius: inherit !important;
     background-color: transparent !important;
 }
 
-.css-vuxlgb-select input[role="combobox"] {
+[class*="select"] input[role="combobox"] {
     background-color: transparent !important;
 }
 
-.css-vuxlgb-select .css-15ffo05-textInput__facade:focus-within,
-.css-vuxlgb-select .css-ols3ti-textInput__facade:focus-within {
+[class*="select"] [class*="textInput__facade"]:focus-within {
     border-color: #4a4a4a !important;
     box-shadow: none !important;
 }
 
-.css-vuxlgb-select input[aria-expanded="true"] {
+[class*="select"] input[aria-expanded="true"] {
     color: #C7CDD1 !important;
 }
 
-.css-vuxlgb-select input[role="combobox"]:focus {
+[class*="select"] input[role="combobox"]:focus {
     outline: none !important;
     box-shadow: none !important;
 }
 
-.css-vuxlgb-select input[role="combobox"]::placeholder {
+[class*="select"] input[role="combobox"]::placeholder {
     color: #9aa3ad !important;
 }
 
-.css-vuxlgb-select .css-1ilrm37-select__icon svg,
-.css-vuxlgb-select .css-1ilrm37-select__icon svg path {
+[class*="select"] [class*="select__icon"] svg,
+[class*="select"] [class*="select__icon"] svg path {
     fill: currentColor !important;
     color: #C7CDD1 !important;
 }
 
 /* Select menu popover (open dropdown list) */
-.css-3nf5sm-options,
-[role="listbox"].css-h1wohn-view--block-options__list {
+[role="listbox"][class*="view--block-options__list"],
+[role="listbox"][class*="options"] {
     background-color: #262626 !important;
     border: 1px solid #3a3a3a !important;
     color: #C7CDD1 !important;
 }
 
-.css-bx6zoh-optionItem,
-.css-wlckwd-optionItem {
+[class*="optionItem"] {
     background-color: transparent !important;
 }
 
-.css-1xvmiv1-optionItem__container {
+[class*="optionItem__container"] {
     color: #C7CDD1 !important;
 }
 
-.css-1xvmiv1-optionItem__container:hover {
+[class*="optionItem__container"]:hover {
     background-color: #30343a !important;
 }
 
-.css-1xvmiv1-optionItem__container[aria-selected="true"] {
+[class*="optionItem__container"][aria-selected="true"] {
     background-color: #2a3138 !important;
     color: #9ac2ff !important;
 }
@@ -172,7 +168,7 @@ iframe.tool_launch {
 
 /* "Add Comment" button */
 [data-testid="view_feedback_button"],
-[data-testid="view_feedback_button"] .css-1ta5ds2-baseButton__content {
+[data-testid="view_feedback_button"] [class*="baseButton__content"] {
     background-color: #262626 !important;
     color: #C7CDD1 !important;
     border: 1px solid #3a3a3a !important;
@@ -180,7 +176,7 @@ iframe.tool_launch {
     box-shadow: none !important;
 }
 
-[data-testid="view_feedback_button"] .css-11xkk0o-baseButton__children {
+[data-testid="view_feedback_button"] [class*="baseButton__children"] {
     color: #C7CDD1 !important;
 }
 
@@ -192,7 +188,7 @@ iframe.tool_launch {
 
 /* "Immersive Reader" button */
 #immersive_reader_mount_point button,
-#immersive_reader_mount_point button .css-1ta5ds2-baseButton__content {
+#immersive_reader_mount_point button [class*="baseButton__content"] {
     background-color: #262626 !important;
     color: #C7CDD1 !important;
     border: 1px solid #3a3a3a !important;
@@ -200,7 +196,7 @@ iframe.tool_launch {
     box-shadow: none !important;
 }
 
-#immersive_reader_mount_point button .css-11xkk0o-baseButton__children {
+#immersive_reader_mount_point button [class*="baseButton__children"] {
     color: #C7CDD1 !important;
 }
 
@@ -243,12 +239,12 @@ iframe.tool_launch {
     color: #C7CDD1 !important;
 }
 
-.responsive_student_grades_page #GradeSummarySelectMenuGroup .css-oj1gve-formFieldLayout__label {
+.responsive_student_grades_page #GradeSummarySelectMenuGroup [class*="formFieldLayout__label"] {
     color: #C7CDD1 !important;
 }
 
 .responsive_student_grades_page #apply_select_menus,
-.responsive_student_grades_page #apply_select_menus .css-h8r6vs-baseButton__content {
+.responsive_student_grades_page #apply_select_menus [class*="baseButton__content"] {
     background-color: #262626 !important;
     color: #C7CDD1 !important;
     border: 1px solid #3a3a3a !important;
@@ -291,15 +287,15 @@ iframe.tool_launch {
 
 .responsive_student_grades_page .assignment-search,
 .responsive_student_grades_page .assignment-search .ic-Multi-input,
-.responsive_student_grades_page .assignment-search .css-15ffo05-textInput__facade,
-.responsive_student_grades_page .assignment-search .css-1iuow49-textInput__layout,
-.responsive_student_grades_page .assignment-search .css-9kp4ca-textInput__inputLayout {
+.responsive_student_grades_page .assignment-search [class*="textInput__facade"],
+.responsive_student_grades_page .assignment-search [class*="textInput__layout"],
+.responsive_student_grades_page .assignment-search [class*="textInput__inputLayout"] {
     background-color: #262626 !important;
     color: #C7CDD1 !important;
     border-color: #3a3a3a !important;
 }
 
-.responsive_student_grades_page .assignment-search .css-15ffo05-textInput__facade {
+.responsive_student_grades_page .assignment-search [class*="textInput__facade"] {
     border: 1px solid #3a3a3a !important;
     border-radius: 6px !important;
     overflow: hidden !important;
@@ -315,7 +311,7 @@ iframe.tool_launch {
     color: #C7CDD1 !important;
 }
 
-.responsive_student_grades_page .assignment-search .css-15ffo05-textInput__facade:focus-within {
+.responsive_student_grades_page .assignment-search [class*="textInput__facade"]:focus-within {
     border-color: #4a4a4a !important;
     box-shadow: none !important;
 }
@@ -324,12 +320,12 @@ iframe.tool_launch {
 .responsive_student_grades_page .header-bar-right fieldset,
 .responsive_student_grades_page .header-bar-right legend,
 .responsive_student_grades_page .header-bar-right label,
-.responsive_student_grades_page .header-bar-right .css-1fwm3gs-radioInput__label {
+.responsive_student_grades_page .header-bar-right [class*="radioInput__label"] {
     color: #C7CDD1 !important;
 }
 
 /* Keep the checked state color from Canvas; only darken unchecked */
-.responsive_student_grades_page .header-bar-right input[type="radio"]:not(:checked) + label .css-1gvcicn-radioInput__facade {
+.responsive_student_grades_page .header-bar-right input[type="radio"]:not(:checked) + label [class*="radioInput__facade"] {
     background-color: #1f1f1f !important;
     border-color: #3a3a3a !important;
 }
@@ -483,15 +479,14 @@ iframe.tool_launch {
 }
 
 /* Files page */
-body.files .css-itoxpg-view-heading,
-body.files .css-oj1gve-formFieldLayout__label,
-body.files .css-1qe8d4s-text {
+body.files [class*="view-heading"],
+body.files [class*="formFieldLayout__label"] {
     color: #C7CDD1 !important;
 }
 
-body.files .css-15ffo05-textInput__facade,
-body.files .css-lkfnwv-textInput__layout,
-body.files .css-9kp4ca-textInput__inputLayout,
+body.files [class*="textInput__facade"],
+body.files [class*="textInput__layout"],
+body.files [class*="textInput__inputLayout"],
 body.files input[data-testid="files-search-input"] {
     background-color: #262626 !important;
     color: #C7CDD1 !important;
@@ -499,7 +494,7 @@ body.files input[data-testid="files-search-input"] {
     box-shadow: none !important;
 }
 
-body.files .css-15ffo05-textInput__facade {
+body.files [class*="textInput__facade"] {
     border: 1px solid #3a3a3a !important;
     border-radius: 6px !important;
     overflow: hidden !important;
@@ -509,14 +504,14 @@ body.files input[data-testid="files-search-input"]::placeholder {
     color: #9aa3ad !important;
 }
 
-body.files .css-lkfnwv-textInput__layout svg,
-body.files .css-lkfnwv-textInput__layout svg path {
+body.files [class*="textInput__layout"] svg,
+body.files [class*="textInput__layout"] svg path {
     fill: currentColor !important;
     color: #C7CDD1 !important;
 }
 
-body.files button.css-10t32iw-view--inlineBlock-baseButton,
-body.files button.css-10t32iw-view--inlineBlock-baseButton .css-1ta5ds2-baseButton__content {
+body.files button[class*="view--inlineBlock-baseButton"],
+body.files button[class*="view--inlineBlock-baseButton"] [class*="baseButton__content"] {
     background-color: #262626 !important;
     color: #C7CDD1 !important;
     border: 1px solid #3a3a3a !important;
@@ -538,9 +533,8 @@ body.files #files-table thead th {
 }
 
 body.files #files-table thead tr,
-body.files #files-table .css-1i718i6-view-row,
-body.files #files-table .css-4zi05x-colHeader,
-body.files #files-table .css-shp4i1-colHeader,
+body.files #files-table [class*="view-row"],
+body.files #files-table [class*="colHeader"],
 body.files #files-table thead th button,
 body.files #files-table thead th button span {
     background-color: #262626 !important;
@@ -559,9 +553,8 @@ body.files #files-table tbody tr:nth-child(odd) > td {
 
 body.files #files-table tbody tr > th,
 body.files #files-table tbody tr > td,
-body.files #files-table .css-odrjip-view-cell,
-body.files #files-table .css-183hmla-view-cell,
-body.files #files-table .css-1uhu8qv-view-rowHeader {
+body.files #files-table [class*="view-cell"],
+body.files #files-table [class*="view-rowHeader"] {
     background-color: #1f1f1f !important;
     color: #C7CDD1 !important;
     border-color: #3a3a3a !important;
@@ -578,25 +571,25 @@ body.files #files-table th {
     color: #C7CDD1 !important;
 }
 
-body.files .css-17kez3x-inlineSVG-svgIcon-colHeader__sortedIconColor,
-body.files .css-n5049o-inlineSVG-svgIcon-colHeader__unSortedIconColor {
+body.files [class*="svgIcon-colHeader__sortedIconColor"],
+body.files [class*="svgIcon-colHeader__unSortedIconColor"] {
     fill: currentColor !important;
     color: #C7CDD1 !important;
 }
 
-body.files .css-1xjplqo-checkboxFacade__facade {
+body.files [class*="checkboxFacade__facade"] {
     background-color: #1f1f1f !important;
     border-color: #3a3a3a !important;
 }
 
-body.files .css-1h7tu9i-checkbox__control:hover .css-1xjplqo-checkboxFacade__facade,
-body.files .css-1h7tu9i-checkbox__control:focus-within .css-1xjplqo-checkboxFacade__facade,
-body.files .css-1gtanqs:hover .css-1xjplqo-checkboxFacade__facade {
+body.files [class*="checkbox__control"]:hover [class*="checkboxFacade__facade"],
+body.files [class*="checkbox__control"]:focus-within [class*="checkboxFacade__facade"],
+body.files label:hover [class*="checkboxFacade__facade"] {
     background-color: #262626 !important;
     border-color: #4a4a4a !important;
 }
 
-body.files input.css-22ol9d-checkbox__input:checked + label .css-1xjplqo-checkboxFacade__facade {
+body.files input[class*="checkbox__input"]:checked + label [class*="checkboxFacade__facade"] {
     background-color: #5c8edb !important;
     border-color: #5c8edb !important;
 }
@@ -610,9 +603,9 @@ body.files button[data-testid="action-menu-button-large"] svg path {
 }
 
 /* People page search + role filter */
-body.people .css-15ffo05-textInput__facade,
-body.people .css-1iuow49-textInput__layout,
-body.people .css-9kp4ca-textInput__inputLayout,
+body.people [class*="textInput__facade"],
+body.people [class*="textInput__layout"],
+body.people [class*="textInput__inputLayout"],
 body.people #search_input_container input[type="text"] {
     background-color: #262626 !important;
     color: #C7CDD1 !important;
@@ -620,7 +613,7 @@ body.people #search_input_container input[type="text"] {
     box-shadow: none !important;
 }
 
-body.people .css-15ffo05-textInput__facade {
+body.people [class*="textInput__facade"] {
     border: 1px solid #3a3a3a !important;
     border-radius: 6px !important;
     overflow: hidden !important;
@@ -709,8 +702,7 @@ body.people .accordion.student-groups.content-box.show-body .icon-lock {
 }
 
 #dashboard-planner-header button,
-#dashboard-planner-header button .css-108a9j6-baseButton__content,
-#dashboard-planner-header button .css-v4g620-baseButton__content {
+#dashboard-planner-header button [class*="baseButton__content"] {
     background-color: #262626 !important;
     color: #C7CDD1 !important;
     border: 1px solid #3a3a3a !important;
@@ -724,7 +716,7 @@ body.people .accordion.student-groups.content-box.show-body .icon-lock {
     color: #C7CDD1 !important;
 }
 
-#dashboard-planner-header .css-1hxdftt-view--block-badge {
+#dashboard-planner-header [class*="view--block-badge"] {
     background-color: #2a2a2a !important;
     color: #C7CDD1 !important;
     border: 1px solid #3a3a3a !important;
@@ -766,8 +758,8 @@ body.people .accordion.student-groups.content-box.show-body .icon-lock {
     border-bottom-color: #3a3a3a !important;
 }
 
-.CompletedItemsFacade-styles__root .css-10dz9lm-toggleDetails__summary,
-.CompletedItemsFacade-styles__root .css-f32ptg-toggleDetails__summaryText {
+.CompletedItemsFacade-styles__root [class*="toggleDetails__summary"],
+.CompletedItemsFacade-styles__root [class*="toggleDetails__summaryText"] {
     color: #9ac2ff !important;
 }
 
@@ -778,64 +770,53 @@ body.people .accordion.student-groups.content-box.show-body .icon-lock {
 }
 
 /* Planner new-activity badge (use lighter blue accent) */
-.NotificationBadge-styles__activityIndicator .css-1fina70-view--inlineBlock-badge {
+.NotificationBadge-styles__activityIndicator [class*="view--inlineBlock-badge"] {
     background-color: #9ac2ff !important;
     border-color: #9ac2ff !important;
 }
 
 /* Planner item checkbox */
-.PlannerItem-styles__completed .css-8vrkyi-checkboxFacade__facade {
+.PlannerItem-styles__completed [class*="checkboxFacade__facade"] {
     background-color: #1f1f1f !important;
     border-color: #3a3a3a !important;
 }
 
-.PlannerItem-styles__completed .css-1h7tu9i-checkbox__control:hover .css-8vrkyi-checkboxFacade__facade,
-.PlannerItem-styles__completed .css-1h7tu9i-checkbox__control:focus-within .css-8vrkyi-checkboxFacade__facade {
+.PlannerItem-styles__completed [class*="checkbox__control"]:hover [class*="checkboxFacade__facade"],
+.PlannerItem-styles__completed [class*="checkbox__control"]:focus-within [class*="checkboxFacade__facade"] {
     background-color: #262626 !important;
     border-color: #4a4a4a !important;
 }
 
-.PlannerItem-styles__completed input.css-22ol9d-checkbox__input:checked + label .css-8vrkyi-checkboxFacade__facade {
+.PlannerItem-styles__completed input[class*="checkbox__input"]:checked + label [class*="checkboxFacade__facade"] {
     background-color: #9ac2ff !important;
     border-color: #9ac2ff !important;
 }
 
 /* Planner/grades badge pills */
-.BadgeList-styles__root .css-8aaix9-pill,
-.BadgeList-styles__root .css-12pzab8-pill {
+.BadgeList-styles__root [class*="pill"]:not([class*="pill__text"]) {
     background-color: #262626 !important;
     color: #C7CDD1 !important;
     border: 1px solid #3a3a3a !important;
 }
 
-.BadgeList-styles__root .css-8aaix9-pill {
-    background-color: #1f3a2a !important;
-    border-color: #2f8a4b !important;
-}
-
-.BadgeList-styles__root .css-12pzab8-pill {
-    background-color: #3a1f1f !important;
-    border-color: #8a2f2f !important;
-}
-
-.BadgeList-styles__root .css-xbajoi-pill__text {
+.BadgeList-styles__root [class*="pill__text"] {
     color: #C7CDD1 !important;
 }
-body.files button[data-testid="action-menu-button-large"]:not(:hover):not(:focus-visible) .css-v4g620-baseButton__content {
+body.files button[data-testid="action-menu-button-large"]:not(:hover):not(:focus-visible) [class*="baseButton__content"] {
     background-color: transparent !important;
     border-color: transparent !important;
     box-shadow: none !important;
 }
 
-body.files button[data-testid="action-menu-button-large"]:hover .css-v4g620-baseButton__content,
-body.files button[data-testid="action-menu-button-large"]:focus-visible .css-v4g620-baseButton__content {
+body.files button[data-testid="action-menu-button-large"]:hover [class*="baseButton__content"],
+body.files button[data-testid="action-menu-button-large"]:focus-visible [class*="baseButton__content"] {
     background-color: #262626 !important;
     border-color: #3a3a3a !important;
     box-shadow: none !important;
 }
 
 body.files button[data-testid="bulk-actions-download-button"],
-body.files button[data-testid="bulk-actions-download-button"] .css-83dfl8-baseButton__content {
+body.files button[data-testid="bulk-actions-download-button"] [class*="baseButton__content"] {
     background-color: #262626 !important;
     color: #C7CDD1 !important;
     border: 1px solid #3a3a3a !important;
@@ -847,14 +828,6 @@ body.files button[data-testid="bulk-actions-download-button"] svg,
 body.files button[data-testid="bulk-actions-download-button"] svg path {
     fill: currentColor !important;
     color: #C7CDD1 !important;
-}
-
-body.files button[data-testid="bulk-actions-download-button"] .css-av4d9j-baseButton__content {
-    background-color: #262626 !important;
-    color: #C7CDD1 !important;
-    border: 1px solid #3a3a3a !important;
-    border-radius: 6px !important;
-    box-shadow: none !important;
 }
 
 body.files button[data-testid="bulk-actions-download-button"][disabled] {
@@ -941,7 +914,6 @@ body.files button[data-testid="bulk-actions-download-button"][disabled] {
 #right-side .ToDoSidebarItem__Title,
 #right-side .ToDoSidebarItem__Title a,
 #right-side .ToDoSidebarItem__Info,
-#right-side .ToDoSidebarItem__Info .css-79wf76-text,
 #right-side .ToDoSidebarItem__Info > ul > li {
     color: #C7CDD1 !important;
 }

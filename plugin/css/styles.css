@@ -328,14 +328,10 @@ iframe.tool_launch {
     color: #C7CDD1 !important;
 }
 
-.responsive_student_grades_page .header-bar-right .css-1gvcicn-radioInput__facade {
+/* Keep the checked state color from Canvas; only darken unchecked */
+.responsive_student_grades_page .header-bar-right input[type="radio"]:not(:checked) + label .css-1gvcicn-radioInput__facade {
     background-color: #1f1f1f !important;
     border-color: #3a3a3a !important;
-}
-
-.responsive_student_grades_page .header-bar-right input[type="radio"]:checked + label .css-1gvcicn-radioInput__facade {
-    background-color: #5c8edb !important;
-    border-color: #5c8edb !important;
 }
 
 .responsive_student_grades_page #grades_summary input#grade_entry {

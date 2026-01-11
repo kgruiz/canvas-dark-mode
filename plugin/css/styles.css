@@ -140,6 +140,26 @@ iframe.tool_launch {
     background-color: #1f1f1f !important;
 }
 
+/* "Add Comment" button */
+[data-testid="view_feedback_button"],
+[data-testid="view_feedback_button"] .css-1ta5ds2-baseButton__content {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+}
+
+[data-testid="view_feedback_button"] .css-11xkk0o-baseButton__children {
+    color: #C7CDD1 !important;
+}
+
+[data-testid="view_feedback_button"] svg,
+[data-testid="view_feedback_button"] svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
 /* Canvas rich content (assignment descriptions, pages, etc.) */
 .user_content,
 .user_content p,

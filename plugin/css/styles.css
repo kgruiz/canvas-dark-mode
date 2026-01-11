@@ -84,6 +84,26 @@ a {
     color: #9ac2ff !important;
 }
 
+/* Assignments "Attempt" dropdown (Instructure UI select) */
+.css-vuxlgb-select .css-15ffo05-textInput__facade,
+.css-vuxlgb-select .css-19i4e00-textInput__layout,
+.css-vuxlgb-select .css-9kp4ca-textInput__inputLayout,
+.css-vuxlgb-select input[role="combobox"] {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border-color: #3b4a5a !important;
+}
+
+.css-vuxlgb-select input[role="combobox"]::placeholder {
+    color: #9aa3ad !important;
+}
+
+.css-vuxlgb-select .css-1ilrm37-select__icon svg,
+.css-vuxlgb-select .css-1ilrm37-select__icon svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
 /* External tool iframe container (only affects the frame itself) */
 iframe.tool_launch {
     background-color: #1f1f1f !important;

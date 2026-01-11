@@ -648,6 +648,31 @@ body.people select[name="enrollment_role_id"]:focus {
     border-color: #4a4a4a !important;
 }
 
+/* People page tabs */
+body.people .collectionViewItems.ui-tabs-nav {
+    background-color: #1f1f1f !important;
+    border-color: #3a3a3a !important;
+}
+
+body.people .collectionViewItems.ui-tabs-nav li {
+    background-color: #1f1f1f !important;
+    border-color: #3a3a3a !important;
+}
+
+body.people .collectionViewItems.ui-tabs-nav li a {
+    color: #C7CDD1 !important;
+}
+
+body.people .collectionViewItems.ui-tabs-nav li.ui-tabs-active,
+body.people .collectionViewItems.ui-tabs-nav li.ui-state-active {
+    background-color: #262626 !important;
+}
+
+body.people .collectionViewItems.ui-tabs-nav li.ui-tabs-active a,
+body.people .collectionViewItems.ui-tabs-nav li.ui-state-active a {
+    color: #9ac2ff !important;
+}
+
 body.files button[data-testid="action-menu-button-large"]:not(:hover):not(:focus-visible) .css-v4g620-baseButton__content {
     background-color: transparent !important;
     border-color: transparent !important;

@@ -613,8 +613,16 @@ body.files button[data-testid="action-menu-button-large"]:hover,
 body.files button[data-testid="action-menu-button-large"]:focus-visible,
 body.files button[data-testid="action-menu-button-large"] .css-v4g620-baseButton__content {
     background-color: #262626 !important;
-    border-color: #3a3a3a !important;
     box-shadow: none !important;
+}
+
+body.files button[data-testid="action-menu-button-large"] .css-v4g620-baseButton__content {
+    border-color: transparent !important;
+}
+
+body.files button[data-testid="action-menu-button-large"]:hover .css-v4g620-baseButton__content,
+body.files button[data-testid="action-menu-button-large"]:focus-visible .css-v4g620-baseButton__content {
+    border-color: #3a3a3a !important;
 }
 
 body.files button[data-testid="bulk-actions-download-button"],

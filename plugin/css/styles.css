@@ -602,6 +602,25 @@ body.files button[data-testid="action-menu-button-large"] svg path {
     color: #C7CDD1 !important;
 }
 
+body.files button[data-testid="bulk-actions-download-button"],
+body.files button[data-testid="bulk-actions-download-button"] .css-83dfl8-baseButton__content {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+}
+
+body.files button[data-testid="bulk-actions-download-button"] svg,
+body.files button[data-testid="bulk-actions-download-button"] svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
+body.files button[data-testid="bulk-actions-download-button"][disabled] {
+    opacity: 0.6 !important;
+}
+
 .ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
     background-color: #1f1f1f !important;
 }

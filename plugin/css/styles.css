@@ -89,9 +89,37 @@ a {
 .css-vuxlgb-select .css-19i4e00-textInput__layout,
 .css-vuxlgb-select .css-9kp4ca-textInput__inputLayout,
 .css-vuxlgb-select input[role="combobox"] {
-    background-color: #1f1f1f !important;
+    background-color: #262626 !important;
     color: #C7CDD1 !important;
-    border-color: #3b4a5a !important;
+    border-color: #3a3a3a !important;
+    box-shadow: none !important;
+}
+
+.css-vuxlgb-select .css-15ffo05-textInput__facade {
+    border: 1px solid #3a3a3a !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
+}
+
+.css-vuxlgb-select .css-19i4e00-textInput__layout,
+.css-vuxlgb-select .css-9kp4ca-textInput__inputLayout {
+    border: 0 !important;
+    border-radius: inherit !important;
+    background-color: transparent !important;
+}
+
+.css-vuxlgb-select input[role="combobox"] {
+    background-color: transparent !important;
+}
+
+.css-vuxlgb-select .css-15ffo05-textInput__facade:focus-within {
+    border-color: #4a4a4a !important;
+    box-shadow: none !important;
+}
+
+.css-vuxlgb-select input[role="combobox"]:focus {
+    outline: none !important;
+    box-shadow: none !important;
 }
 
 .css-vuxlgb-select input[role="combobox"]::placeholder {

@@ -78,6 +78,12 @@ a {
     stroke: currentColor !important;
 }
 
+/* Course nav active item */
+.list-view a.active {
+    border-left: 2px solid #5c8edb !important;
+    color: #9ac2ff !important;
+}
+
 /* External tool iframe container (only affects the frame itself) */
 iframe.tool_launch {
     background-color: #1f1f1f !important;

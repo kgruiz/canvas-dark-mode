@@ -84,6 +84,15 @@ a {
     color: #9ac2ff !important;
 }
 
+/* Courses tray list text (titles + subtext) */
+.navigation-tray-container.courses-tray [class*="text"] {
+    color: #C7CDD1 !important;
+}
+
+.navigation-tray-container.courses-tray li[class*="view-listItem"] > div[class*="text"] {
+    color: #9aa3ad !important;
+}
+
 /* Assignments "Attempt" dropdown (Instructure UI select) */
 [class*="select"] [class*="textInput__facade"],
 [class*="select"] [class*="textInput__layout"],

@@ -609,6 +609,45 @@ body.files button[data-testid="action-menu-button-large"] svg path {
     color: #C7CDD1 !important;
 }
 
+/* People page search + role filter */
+body.people .css-15ffo05-textInput__facade,
+body.people .css-1iuow49-textInput__layout,
+body.people .css-9kp4ca-textInput__inputLayout,
+body.people #search_input_container input[type="text"] {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+    box-shadow: none !important;
+}
+
+body.people .css-15ffo05-textInput__facade {
+    border: 1px solid #3a3a3a !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
+}
+
+body.people #search_input_container input[type="text"]::placeholder {
+    color: #9aa3ad !important;
+}
+
+body.people #search_input_container svg,
+body.people #search_input_container svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
+body.people select[name="enrollment_role_id"] {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+    border-radius: 6px !important;
+}
+
+body.people select[name="enrollment_role_id"]:focus {
+    outline: none !important;
+    border-color: #4a4a4a !important;
+}
+
 body.files button[data-testid="action-menu-button-large"]:not(:hover):not(:focus-visible) .css-v4g620-baseButton__content {
     background-color: transparent !important;
     border-color: transparent !important;

@@ -430,6 +430,58 @@ iframe.tool_launch {
     background-color: #4d4d4d  !important;
 }
 
+.mini_month {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+.mini-cal-header,
+.mini-cal-month-and-year,
+.mini-cal-header .month_name,
+.mini-cal-header .year_number {
+    color: #C7CDD1 !important;
+}
+
+.mini-cal-header .Button {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+.mini-cal-header .Button i {
+    color: #C7CDD1 !important;
+}
+
+.mini_calendar {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+.mini_calendar th,
+.mini_calendar td {
+    border-color: #3a3a3a !important;
+    color: #C7CDD1 !important;
+}
+
+.mini_calendar .day.other_month .day_number {
+    color: #6f7882 !important;
+}
+
+.mini_calendar .day.has_event {
+    background-color: #262626 !important;
+}
+
+.mini_calendar .day.has_event .day_number {
+    color: #9ac2ff !important;
+}
+
+.mini_calendar .day.today {
+    background-color: #2f3945 !important;
+    color: #fff !important;
+}
+
 .ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
     background-color: #1f1f1f !important;
 }

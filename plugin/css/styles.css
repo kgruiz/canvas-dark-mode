@@ -289,6 +289,54 @@ iframe.tool_launch {
     color: #9aa3ad !important;
 }
 
+.responsive_student_grades_page .assignment-search,
+.responsive_student_grades_page .assignment-search .ic-Multi-input,
+.responsive_student_grades_page .assignment-search .css-15ffo05-textInput__facade,
+.responsive_student_grades_page .assignment-search .css-1iuow49-textInput__layout,
+.responsive_student_grades_page .assignment-search .css-9kp4ca-textInput__inputLayout {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+.responsive_student_grades_page .assignment-search .css-15ffo05-textInput__facade {
+    border: 1px solid #3a3a3a !important;
+    border-radius: 6px !important;
+    overflow: hidden !important;
+}
+
+.responsive_student_grades_page .assignment-search input[type="text"]::placeholder {
+    color: #9aa3ad !important;
+}
+
+.responsive_student_grades_page .assignment-search svg,
+.responsive_student_grades_page .assignment-search svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
+.responsive_student_grades_page .assignment-search .css-15ffo05-textInput__facade:focus-within {
+    border-color: #4a4a4a !important;
+    box-shadow: none !important;
+}
+
+.responsive_student_grades_page .header-bar-right,
+.responsive_student_grades_page .header-bar-right fieldset,
+.responsive_student_grades_page .header-bar-right legend,
+.responsive_student_grades_page .header-bar-right label {
+    color: #C7CDD1 !important;
+}
+
+.responsive_student_grades_page .header-bar-right .css-1gvcicn-radioInput__facade {
+    background-color: #1f1f1f !important;
+    border-color: #3a3a3a !important;
+}
+
+.responsive_student_grades_page .header-bar-right input[type="radio"]:checked + label .css-1gvcicn-radioInput__facade {
+    background-color: #5c8edb !important;
+    border-color: #5c8edb !important;
+}
+
 .responsive_student_grades_page #grades_summary input#grade_entry {
     background-color: #262626 !important;
     color: #C7CDD1 !important;

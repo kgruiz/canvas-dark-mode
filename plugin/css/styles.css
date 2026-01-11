@@ -323,7 +323,8 @@ iframe.tool_launch {
 .responsive_student_grades_page .header-bar-right,
 .responsive_student_grades_page .header-bar-right fieldset,
 .responsive_student_grades_page .header-bar-right legend,
-.responsive_student_grades_page .header-bar-right label {
+.responsive_student_grades_page .header-bar-right label,
+.responsive_student_grades_page .header-bar-right .css-1fwm3gs-radioInput__label {
     color: #C7CDD1 !important;
 }
 

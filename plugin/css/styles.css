@@ -617,6 +617,14 @@ body.files button[data-testid="bulk-actions-download-button"] svg path {
     color: #C7CDD1 !important;
 }
 
+body.files button[data-testid="bulk-actions-download-button"] .css-av4d9j-baseButton__content {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+}
+
 body.files button[data-testid="bulk-actions-download-button"][disabled] {
     opacity: 0.6 !important;
 }

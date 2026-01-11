@@ -701,6 +701,82 @@ body.people .accordion.student-groups.content-box.show-body .icon-lock {
     color: #C7CDD1 !important;
 }
 
+/* Dashboard planner header + buttons */
+.PlannerHeader-styles__root,
+.PlannerHeader {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+}
+
+#dashboard-planner-header button,
+#dashboard-planner-header button .css-108a9j6-baseButton__content,
+#dashboard-planner-header button .css-v4g620-baseButton__content {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+    border-radius: 6px !important;
+    box-shadow: none !important;
+}
+
+#dashboard-planner-header button svg,
+#dashboard-planner-header button svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
+#dashboard-planner-header .css-1hxdftt-view--block-badge {
+    background-color: #2a2a2a !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+}
+
+/* Dashboard planner rows / groupings */
+.planner-day,
+.Day-styles__root {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+}
+
+.Day-styles__secondary {
+    color: #9aa3ad !important;
+}
+
+.Grouping-styles__root,
+.Grouping-styles__items {
+    border-color: #3a3a3a !important;
+    color: #C7CDD1 !important;
+}
+
+.Grouping-styles__title {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+}
+
+.Grouping-styles__title::after {
+    background: linear-gradient(to bottom, rgba(38, 38, 38, 0) 0%, #262626 100%) !important;
+}
+
+.Grouping-styles__overlay {
+    opacity: 0.4 !important;
+}
+
+.CompletedItemsFacade-styles__root {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border-bottom-color: #3a3a3a !important;
+}
+
+.CompletedItemsFacade-styles__root .css-10dz9lm-toggleDetails__summary,
+.CompletedItemsFacade-styles__root .css-f32ptg-toggleDetails__summaryText {
+    color: #9ac2ff !important;
+}
+
+.CompletedItemsFacade-styles__root svg,
+.CompletedItemsFacade-styles__root svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
 body.files button[data-testid="action-menu-button-large"]:not(:hover):not(:focus-visible) .css-v4g620-baseButton__content {
     background-color: transparent !important;
     border-color: transparent !important;

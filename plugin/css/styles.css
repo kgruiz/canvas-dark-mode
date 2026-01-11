@@ -777,6 +777,50 @@ body.people .accordion.student-groups.content-box.show-body .icon-lock {
     color: #C7CDD1 !important;
 }
 
+/* Planner new-activity badge (use lighter blue accent) */
+.NotificationBadge-styles__activityIndicator .css-1fina70-view--inlineBlock-badge {
+    background-color: #9ac2ff !important;
+    border-color: #9ac2ff !important;
+}
+
+/* Planner item checkbox */
+.PlannerItem-styles__completed .css-8vrkyi-checkboxFacade__facade {
+    background-color: #1f1f1f !important;
+    border-color: #3a3a3a !important;
+}
+
+.PlannerItem-styles__completed .css-1h7tu9i-checkbox__control:hover .css-8vrkyi-checkboxFacade__facade,
+.PlannerItem-styles__completed .css-1h7tu9i-checkbox__control:focus-within .css-8vrkyi-checkboxFacade__facade {
+    background-color: #262626 !important;
+    border-color: #4a4a4a !important;
+}
+
+.PlannerItem-styles__completed input.css-22ol9d-checkbox__input:checked + label .css-8vrkyi-checkboxFacade__facade {
+    background-color: #9ac2ff !important;
+    border-color: #9ac2ff !important;
+}
+
+/* Planner/grades badge pills */
+.BadgeList-styles__root .css-8aaix9-pill,
+.BadgeList-styles__root .css-12pzab8-pill {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+}
+
+.BadgeList-styles__root .css-8aaix9-pill {
+    background-color: #1f2b22 !important;
+    border-color: #2f5a3a !important;
+}
+
+.BadgeList-styles__root .css-12pzab8-pill {
+    background-color: #2b1f1f !important;
+    border-color: #5a2f2f !important;
+}
+
+.BadgeList-styles__root .css-xbajoi-pill__text {
+    color: #C7CDD1 !important;
+}
 body.files button[data-testid="action-menu-button-large"]:not(:hover):not(:focus-visible) .css-v4g620-baseButton__content {
     background-color: transparent !important;
     border-color: transparent !important;

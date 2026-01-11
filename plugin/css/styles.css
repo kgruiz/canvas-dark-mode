@@ -589,6 +589,13 @@ body.files .css-1xjplqo-checkboxFacade__facade {
     border-color: #3a3a3a !important;
 }
 
+body.files .css-1h7tu9i-checkbox__control:hover .css-1xjplqo-checkboxFacade__facade,
+body.files .css-1h7tu9i-checkbox__control:focus-within .css-1xjplqo-checkboxFacade__facade,
+body.files .css-1gtanqs:hover .css-1xjplqo-checkboxFacade__facade {
+    background-color: #262626 !important;
+    border-color: #4a4a4a !important;
+}
+
 body.files input.css-22ol9d-checkbox__input:checked + label .css-1xjplqo-checkboxFacade__facade {
     background-color: #5c8edb !important;
     border-color: #5c8edb !important;

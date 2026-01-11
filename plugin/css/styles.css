@@ -66,6 +66,18 @@ a {
     color: #C7CDD1 !important;
 }
 
+/* "Details" toggle summary in assignment header */
+.a2-toggle-details-container button,
+.a2-toggle-details-container button span {
+    color: #C7CDD1 !important;
+}
+
+.a2-toggle-details-container button svg,
+.a2-toggle-details-container button svg path {
+    fill: currentColor !important;
+    stroke: currentColor !important;
+}
+
 /* Canvas rich content (assignment descriptions, pages, etc.) */
 .user_content,
 .user_content p,

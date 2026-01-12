@@ -64,10 +64,15 @@ a {
 input[type="checkbox"] {
     -webkit-appearance: none;
     appearance: none;
+    display: inline-grid;
+    place-content: center;
+    inline-size: 1em;
+    block-size: 1em;
     background-color: #1f1f1f !important;
     border: 1px solid #3a3a3a !important;
     border-radius: 3px !important;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 input[type="checkbox"]:checked {

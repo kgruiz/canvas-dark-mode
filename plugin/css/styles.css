@@ -710,6 +710,98 @@ body.people .accordion.student-groups.content-box.show-body .icon-lock {
     color: #C7CDD1 !important;
 }
 
+/* User settings: profile table + contact channels */
+.profile_table {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+.profile_table th,
+.profile_table td,
+.profile_table label {
+    color: #C7CDD1 !important;
+}
+
+.profile_table .data_description,
+.profile_table .edit_or_show_data.data_description {
+    color: #9aa3ad !important;
+}
+
+.profile_table input.edit_data,
+.profile_table select {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+    border-radius: 4px !important;
+}
+
+.profile_table input.edit_data:focus,
+.profile_table select:focus {
+    outline: none !important;
+    border-color: #4a4a4a !important;
+}
+
+table:has(.contact_channel_path) th,
+table:has(.contact_channel_path) td {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+.contact_channel_path,
+.add_email_link {
+    color: #C7CDD1 !important;
+}
+
+.email_meta i,
+.email_actions i {
+    color: #C7CDD1 !important;
+}
+
+/* User settings: feature options table */
+table:has([data-testid="ff-table-row"]) {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+}
+
+table:has([data-testid="ff-table-row"]) thead th,
+table:has([data-testid="ff-table-row"]) thead th button,
+table:has([data-testid="ff-table-row"]) thead th button span {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+table:has([data-testid="ff-table-row"]) tbody tr,
+table:has([data-testid="ff-table-row"]) tbody td {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+table:has([data-testid="ff-table-row"]) tbody tr:nth-child(odd),
+table:has([data-testid="ff-table-row"]) tbody tr:nth-child(odd) > td {
+    background-color: #202020 !important;
+}
+
+table:has([data-testid="ff-table-row"]) [class*="toggleDetails__summaryText"] {
+    color: #C7CDD1 !important;
+}
+
+table:has([data-testid="ff-table-row"]) [class*="toggleDetails__icon"] svg,
+table:has([data-testid="ff-table-row"]) [class*="toggleDetails__icon"] svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
+table:has([data-testid="ff-table-row"]) [class*="svgIcon-colHeader__sortedIconColor"],
+table:has([data-testid="ff-table-row"]) [class*="svgIcon-colHeader__unSortedIconColor"] {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
 /* Dashboard planner header + buttons */
 .PlannerHeader-styles__root,
 .PlannerHeader {

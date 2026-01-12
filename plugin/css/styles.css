@@ -913,22 +913,53 @@ table:has([data-testid="ff-table-row"]) [class*="svgIcon-colHeader__unSortedIcon
     color: #C7CDD1 !important;
 }
 
+#content:has([data-testid="settings-for-label"]) [class*="view-table"] button[data-popover-trigger],
+#content:has([data-testid="settings-for-label"]) [class*="view-table"] button[data-popover-trigger] [class*="baseButton__content"] {
+    background-color: transparent !important;
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="view-table"] button[data-popover-trigger]:hover [class*="baseButton__content"],
+#content:has([data-testid="settings-for-label"]) [class*="view-table"] button[data-popover-trigger]:focus-visible [class*="baseButton__content"] {
+    background-color: #262626 !important;
+}
+
+#content:has([data-testid="settings-for-label"]) svg[name="IconNo"],
+#content:has([data-testid="settings-for-label"]) svg[name="IconMuted"] {
+    color: #9aa3ad !important;
+}
+
+#content:has([data-testid="settings-for-label"]) svg[name="IconNo"] path,
+#content:has([data-testid="settings-for-label"]) svg[name="IconMuted"] path {
+    fill: currentColor !important;
+}
+
 body:has([data-testid="settings-for-label"]) [role="listbox"] {
     background-color: #262626 !important;
     color: #C7CDD1 !important;
     border: 1px solid #3a3a3a !important;
 }
 
-body:has([data-testid="settings-for-label"]) [role="option"] {
+body:has([data-testid="settings-for-label"]) [class*="view--block-list"],
+body:has([data-testid="settings-for-label"]) [class*="select__options"] {
+    background-color: #262626 !important;
+    border: 1px solid #3a3a3a !important;
+}
+
+body:has([data-testid="settings-for-label"]) [role="option"],
+body:has([data-testid="settings-for-label"]) [class*="view-listItem"] {
     color: #C7CDD1 !important;
     background-color: transparent !important;
 }
 
-body:has([data-testid="settings-for-label"]) [role="option"]:hover {
+body:has([data-testid="settings-for-label"]) [role="option"]:hover,
+body:has([data-testid="settings-for-label"]) [class*="view-listItem"]:hover {
     background-color: #30343a !important;
 }
 
-body:has([data-testid="settings-for-label"]) [role="option"][aria-selected="true"] {
+body:has([data-testid="settings-for-label"]) [role="option"][aria-selected="true"],
+body:has([data-testid="settings-for-label"]) [class*="view-listItem"][aria-selected="true"] {
     background-color: #2a3138 !important;
     color: #9ac2ff !important;
 }

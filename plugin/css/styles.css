@@ -835,6 +835,104 @@ table:has([data-testid="ff-table-row"]) [class*="svgIcon-colHeader__unSortedIcon
     color: #C7CDD1 !important;
 }
 
+/* Notification settings page */
+#content:has([data-testid="settings-for-label"]) [class*="view-heading"] {
+    color: #C7CDD1 !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="view-alert"] {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="view-alert"] svg,
+#content:has([data-testid="settings-for-label"]) [class*="view-alert"] svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="view-alert"] [class*="closeButton"] button,
+#content:has([data-testid="settings-for-label"]) [class*="view-alert"] [class*="closeButton"] [class*="baseButton__content"] {
+    background-color: transparent !important;
+    color: #C7CDD1 !important;
+    border-color: transparent !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="formFieldLayout__label"] {
+    color: #C7CDD1 !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="view-table"] {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="view-table"] thead th,
+#content:has([data-testid="settings-for-label"]) [class*="colHeader"] {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="view-row"],
+#content:has([data-testid="settings-for-label"]) [class*="view-rowHeader"],
+#content:has([data-testid="settings-for-label"]) [class*="view-cell"] {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border-color: #3a3a3a !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="view-row"]:nth-child(odd) > th,
+#content:has([data-testid="settings-for-label"]) [class*="view-row"]:nth-child(odd) > td {
+    background-color: #202020 !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="view-rowHeader"] [class*="text"],
+#content:has([data-testid="settings-for-label"]) [class*="view-cell"] [class*="text"] {
+    color: #C7CDD1 !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="view-rowHeader"] [class*="text"] [class*="text"] {
+    color: inherit !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="toggleFacade__facade"] {
+    background-color: #262626 !important;
+    border-color: #3a3a3a !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="toggleFacade__icon"] svg,
+#content:has([data-testid="settings-for-label"]) [class*="toggleFacade__icon"] svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
+#content:has([data-testid="settings-for-label"]) [class*="toggleFacade__label"] {
+    color: #C7CDD1 !important;
+}
+
+body:has([data-testid="settings-for-label"]) [role="listbox"] {
+    background-color: #262626 !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+}
+
+body:has([data-testid="settings-for-label"]) [role="option"] {
+    color: #C7CDD1 !important;
+    background-color: transparent !important;
+}
+
+body:has([data-testid="settings-for-label"]) [role="option"]:hover {
+    background-color: #30343a !important;
+}
+
+body:has([data-testid="settings-for-label"]) [role="option"][aria-selected="true"] {
+    background-color: #2a3138 !important;
+    color: #9ac2ff !important;
+}
+
 /* Dashboard planner header + buttons */
 .PlannerHeader-styles__root,
 .PlannerHeader {

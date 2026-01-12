@@ -60,6 +60,28 @@ a {
     text-decoration: none !important;
 }
 
+/* Checkboxes (native + InstUI) */
+input[type="checkbox"] {
+    accent-color: #5c8edb !important;
+}
+
+body [class*="checkboxFacade__facade"] {
+    background-color: #1f1f1f !important;
+    border-color: #3a3a3a !important;
+}
+
+body [class*="checkbox__control"]:hover [class*="checkboxFacade__facade"],
+body [class*="checkbox__control"]:focus-within [class*="checkboxFacade__facade"],
+body label:hover [class*="checkboxFacade__facade"] {
+    background-color: #262626 !important;
+    border-color: #4a4a4a !important;
+}
+
+body input[class*="checkbox__input"]:checked + label [class*="checkboxFacade__facade"] {
+    background-color: #5c8edb !important;
+    border-color: #5c8edb !important;
+}
+
 
 .status-description, .title, .locked_title, .points_possible_display,  .ig-details__item
 , .name, h2, .comment, td, .score_value, .ic-Login__actions, .ic-Label{
@@ -593,23 +615,6 @@ body.files [class*="svgIcon-colHeader__unSortedIconColor"] {
     color: #C7CDD1 !important;
 }
 
-body.files [class*="checkboxFacade__facade"] {
-    background-color: #1f1f1f !important;
-    border-color: #3a3a3a !important;
-}
-
-body.files [class*="checkbox__control"]:hover [class*="checkboxFacade__facade"],
-body.files [class*="checkbox__control"]:focus-within [class*="checkboxFacade__facade"],
-body.files label:hover [class*="checkboxFacade__facade"] {
-    background-color: #262626 !important;
-    border-color: #4a4a4a !important;
-}
-
-body.files input[class*="checkbox__input"]:checked + label [class*="checkboxFacade__facade"] {
-    background-color: #5c8edb !important;
-    border-color: #5c8edb !important;
-}
-
 body.files [data-testid="folder-icon"],
 body.files [data-testid="folder-icon"] path,
 body.files button[data-testid="action-menu-button-large"] svg,
@@ -759,20 +764,6 @@ table:has(.contact_channel_path) td {
     color: #C7CDD1 !important;
 }
 
-/* User settings: web services visibility checkbox */
-#show_user_services {
-    accent-color: #5c8edb !important;
-}
-
-#show_user_services:not(:checked) {
-    background-color: #1f1f1f !important;
-    border: 1px solid #3a3a3a !important;
-}
-
-label[for="show_user_services"] {
-    color: #C7CDD1 !important;
-}
-
 /* User settings: feature options table */
 table:has([data-testid="ff-table-row"]) {
     background-color: #1f1f1f !important;
@@ -893,23 +884,6 @@ table:has([data-testid="ff-table-row"]) [class*="svgIcon-colHeader__unSortedIcon
 
 /* Planner new-activity badge (use lighter blue accent) */
 .NotificationBadge-styles__activityIndicator [class*="view--inlineBlock-badge"] {
-    background-color: #9ac2ff !important;
-    border-color: #9ac2ff !important;
-}
-
-/* Planner item checkbox */
-.PlannerItem-styles__completed [class*="checkboxFacade__facade"] {
-    background-color: #1f1f1f !important;
-    border-color: #3a3a3a !important;
-}
-
-.PlannerItem-styles__completed [class*="checkbox__control"]:hover [class*="checkboxFacade__facade"],
-.PlannerItem-styles__completed [class*="checkbox__control"]:focus-within [class*="checkboxFacade__facade"] {
-    background-color: #262626 !important;
-    border-color: #4a4a4a !important;
-}
-
-.PlannerItem-styles__completed input[class*="checkbox__input"]:checked + label [class*="checkboxFacade__facade"] {
     background-color: #9ac2ff !important;
     border-color: #9ac2ff !important;
 }

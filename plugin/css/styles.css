@@ -60,6 +60,43 @@ a {
     text-decoration: none !important;
 }
 
+/* Alerts/banners (InstUI + flash messages) */
+.flashalert-message,
+body [class*="view-alert"] {
+    background-color: #1f1f1f !important;
+    color: #C7CDD1 !important;
+    border: 1px solid #3a3a3a !important;
+}
+
+.flashalert-message [class*="view-alert"],
+body [class*="view-alert"] [class*="view-alert"] {
+    background-color: transparent !important;
+    color: inherit !important;
+    border-color: transparent !important;
+}
+
+.flashalert-message svg,
+.flashalert-message svg path,
+body [class*="view-alert"] svg,
+body [class*="view-alert"] svg path {
+    fill: currentColor !important;
+    color: #C7CDD1 !important;
+}
+
+.flashalert-message [class*="closeButton"] button,
+.flashalert-message [class*="closeButton"] [class*="baseButton__content"],
+body [class*="view-alert"] [class*="closeButton"] button,
+body [class*="view-alert"] [class*="closeButton"] [class*="baseButton__content"] {
+    background-color: transparent !important;
+    color: #C7CDD1 !important;
+    border-color: transparent !important;
+}
+
+.flashalert-message [class*="closeButton"] button:hover [class*="baseButton__content"],
+body [class*="view-alert"] [class*="closeButton"] button:hover [class*="baseButton__content"] {
+    background-color: #262626 !important;
+}
+
 /* Checkboxes (native + InstUI) */
 input[type="checkbox"] {
     -webkit-appearance: none;

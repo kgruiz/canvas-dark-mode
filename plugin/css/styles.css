@@ -759,6 +759,20 @@ table:has(.contact_channel_path) td {
     color: #C7CDD1 !important;
 }
 
+/* User settings: web services visibility checkbox */
+#show_user_services {
+    accent-color: #5c8edb !important;
+}
+
+#show_user_services:not(:checked) {
+    background-color: #1f1f1f !important;
+    border: 1px solid #3a3a3a !important;
+}
+
+label[for="show_user_services"] {
+    color: #C7CDD1 !important;
+}
+
 /* User settings: feature options table */
 table:has([data-testid="ff-table-row"]) {
     background-color: #1f1f1f !important;
